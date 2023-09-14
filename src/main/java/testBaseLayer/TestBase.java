@@ -23,7 +23,7 @@ public class TestBase
 		d.manage().deleteAllCookies();
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		
-		d.getTitle();
+	//	d.getTitle();
 		
 		d.close();
 	}
